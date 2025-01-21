@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Jersey";
+    src: url(/src//assets/fonts/Jersey15-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Canopee";
+    src: url(/src//assets/fonts//CANOPEE.ttf);
+}
+
+@font-face {
+    font-family: "Domaine";
+    src: url(/src/assets/fonts/DOMAINE.ttf);
+}
