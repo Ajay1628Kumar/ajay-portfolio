@@ -17,7 +17,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-black text-white py-10 pb-12 px-4 sm:px-6 lg:px-8">
+    <div className="w-full bg-black text-white py-10 pb-12 px-4 sm:px-6 lg:px-8">
       {skillCategories.map((category, catIndex) => (
         <div key={catIndex} className="mb-12">
           <h2 className="orbitron text-3xl sm:text-4xl md:text-4xl text-[#d14614] text-left mb-8">

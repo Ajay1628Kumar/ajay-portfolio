@@ -25,9 +25,9 @@ const App = () => {
   });
 
   return (
-    <div id="main">
+    <div id="main" className="w-full overflow-x-hidden">
       <div
-        className=" w-5 h-5 bg-white rounded-full fixed z-50"
+        className="hidden lg:block w-5 h-5 bg-white rounded-full fixed z-50"
         ref={crusor}
       ></div>
       <MainPage />

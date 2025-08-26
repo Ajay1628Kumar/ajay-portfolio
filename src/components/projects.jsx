@@ -30,7 +30,7 @@ const Project = () => {
       url: "https://clinivention.vercel.app/dashboard",
       imgSrc: "/images/clinic-dashboard.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis iure nesciunt! Nostrum, quisquam quidem. ",
+        "Built the fully responsive frontend of a healthcare appointment platform using Next.js and Tailwind CSS, featuring patient registration, login forms, and appointment booking UI.Designed a doctor’s dashboard to view scheduled appointments with clean layouts and optimized performance across devices.",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ const Project = () => {
       url: "https://we-frame-tech-ecommerce-website-cmr1.vercel.app/",
       imgSrc: "/images/ecom.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis iure nesciunt! Nostrum, quisquam quidem. ",
+        "Developed a fully responsive car showcase platform using Next.js and Tailwind CSS, allowing users to browse cars based on their requirements with a clean and intuitive interface. Integrated Firebase and Google OAuth for secure authentication and smooth user login/signup experience. Focused on modern UI components, optimized performance, and seamless navigation across devices, highlighting strong frontend development and authentication integration skills.",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Project = () => {
       url: "https://ajay1628kumar.github.io/dribble-clone/",
       imgSrc: "/images/dribble.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis iure nesciunt! Nostrum, quisquam quidem. ",
+        "Crafted a responsive Dribbble-inspired landing page using HTML, CSS, and JavaScript. Implemented smooth animations and interactive elements to enhance user engagement. Optimized performance with minified code and lazy-loaded images. Ensured seamless adaptability across devices with tailored media queries.",
     },
     {
       id: 4,
@@ -54,20 +54,20 @@ const Project = () => {
       url: "https://to-do-web-app-weld.vercel.app/",
       imgSrc: "/images/todoapp.png",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis iure nesciunt! Nostrum, quisquam quidem. ",
+        "Built a fully responsive task management web application using React.js andTailwind CSS. Features include task creation, dynamic task addition, and marking  ascompleted. ",
     },
-    {
-      id: 5,
-      name: "Register Karo Landing Page",
-      url: "https://register-karo-app-rust.vercel.app/",
-      imgSrc: "/images/registerkaro.png",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis iure nesciunt! Nostrum, quisquam quidem. ",
-    },
+    // {
+    //   id: 5,
+    //   name: "Register Karo Landing Page",
+    //   url: "https://register-karo-app-rust.vercel.app/",
+    //   imgSrc: "/images/registerkaro.png",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis iure nesciunt! Nostrum, quisquam quidem. ",
+    // },
   ];
 
   return (
-    <div className=" text-white bg-[black] min-h-screen px-[20px] py-[50px] pb-[80px]">
+    <div className=" text-white bg-[black] px-[20px] py-[50px] pb-[80px]">
       <h1 className="orbitron text-4xl md:text-6xl text-[#d14614] mb-10">
         Recent Projects
       </h1>
@@ -79,7 +79,7 @@ const Project = () => {
           return (
             <div
               key={project.id}
-              className=" relative p-5 pb-0 rounded-lg bg-white bg-opacity-5 backdrop-blur-md overflow-hidden transition-all duration-500 h-auto min-h-[180px]"
+              className=" relative p-5 pb-0 rounded-lg bg-white bg-opacity-5 backdrop-blur-md overflow-hidden transition-all duration-500 h-auto min-h-[200px]"
               onMouseEnter={() => setHoveredProject(project.id)}
               onMouseLeave={() => setHoveredProject(null)}
             >
@@ -91,7 +91,7 @@ const Project = () => {
                 />
                 <div className="flex flex-col justify-between w-full md:w-3/5">
                   <h2 className="text-xl font-semibold mb-2">{project.name}</h2>
-                  <p className="text-sm text-gray-300 mb-4 line-clamp-3">
+                  <p className="text-sm text-gray-300 mb-4 line-clamp-4">
                     {project.description}
                   </p>
                 </div>

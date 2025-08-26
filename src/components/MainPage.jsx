@@ -68,7 +68,7 @@ const MainPage = () => {
   ));
 
   return (
-    <div className="bg bg-[url(/public/images/background-image.jpg)] bg-center bg-fixed bg-cover h-screen">
+    <div className="bg bg-[url(/public/images/background-image.jpg)] bg-center bg-fixed bg-cover h-screen w-full">
       <div className="flex items-center justify-between p-4 fixed">
         <h1
           ref={logoRef}
@@ -83,13 +83,14 @@ const MainPage = () => {
           I Create Things For The Web
         </h1>
         <a
-          href="/src/assets/Ajay Frontend Resume.pdf"
+          href="/Ajay Frontend Resume.pdf"
           download="Ajay Resume.pdf"
           target="_blank"
           className="relative cursor-pointer py-4 px-8 text-center font-barlow inline-flex justify-center text-base uppercase text-white rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
         >
           <a
-            href="/src/assets/Ajay Frontend Resume.pdf"
+            href="/Ajay Frontend Resume.pdf"
+            download="Ajay Resume.pdf"
             className="orbitron relative z-50"
           >
             Resume
