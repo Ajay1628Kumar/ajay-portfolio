@@ -6,6 +6,7 @@ import Project from "./components/projects";
 import Footer from "./components/footer";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Skills from "./components/Skills";
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
       // margin:10
     });
   });
-  
+
   return (
     <div id="main">
       <div
@@ -34,6 +35,8 @@ const App = () => {
       <MarqueContainer />
       <hr className="border-white" />
       <Project />
+      <hr className="border-white" />
+      <Skills />
       <hr className="border-white" />
       <Eye />
       <hr className="border-white" />

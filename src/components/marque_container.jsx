@@ -22,8 +22,8 @@ const MarqueContainer = () => {
   return (
     <div className="bg-[#0A0A0A] overflow-hidden">
       <div className=" main ">
-        <h1 className="heading text-[30vw] font-extrabold font-[canopee] whitespace-nowrap text-[#878787]">
-          I AM A WEB <span className="text-[#FE3C00]">DEVELOPER</span> 
+        <h1 className="heading text-[30vw] font-extrabold font-[canopee] whitespace-nowrap text-[#878787] px-[50px]">
+          I AM A WEB <span className="text-[#d14614]">DEVELOPER</span> 
         </h1>
       </div>
     </div>
